@@ -2,22 +2,22 @@
  * @Author: Jae Chen 
  * @Date: 2018-07-30 22:39:43 
  * @Last Modified by: Jae Chen
- * @Last Modified time: 2018-07-30 22:51:00
+ * @Last Modified time: 2018-07-30 23:06:08
  */
 
 import numpy as np 
 import tensorflow as tf 
 
-def maxpoolLayer():
+def maxpoolLayer(x, pool_size=[2, 2], strides=[1, 1], padding="SAME", name=None):
     pass
 
-def convLayer():
+def convLayer(x, filters, kernel_size, padding="SAME", activation="relu", name=None):
     pass
 
-def fcLayer():
+def fcLayer(x, units, activation="relu", name=None):
     pass
 
-def dropout():
+def dropout(x, keep_proc, name=None):
     pass
 
 def LNB():
